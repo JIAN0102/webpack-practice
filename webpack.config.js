@@ -66,7 +66,7 @@ module.exports = {
                 exclude: path.resolve('./node_modules')
             },
             {
-                test: /\.(woff|woff2|ttf|eot|png|gif)$/,
+                test: /\.(woff|woff2|ttf|eot|jpe?g|png|gif)$/,
                 loader: 'file-loader',
                 options: {
                     name: '[path][name].[ext]?[hash:8]'
